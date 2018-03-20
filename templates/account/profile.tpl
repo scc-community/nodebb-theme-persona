@@ -54,6 +54,11 @@
 				<div class="human-readable-number"  title="{followingCount}">{followingCount}</div>
 				<span class="stat-label">[[user:following]]</span>
 			</div>
+
+			<div class="stat">
+				<div class="human-readable-number"  title="{followingCount}">0</div>
+				<span class="stat-label">Token</span>
+			</div>
 		</div>
 
 		<div class="text-center profile-meta">
