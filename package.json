@@ -1,10 +1,10 @@
 {
-  "name": "scc-nodebb-theme-persona",
-  "version": "8.0.5",
+  "name": "nodebb-theme-scc",
+  "version": "8.0.4",
   "nbbpm": {
     "compatibility": "^1.8.0"
   },
-  "description": "scc-Persona theme for NodeBB",
+  "description": "scc theme for NodeBB",
   "main": "theme.less",
   "repository": {
     "type": "git",
