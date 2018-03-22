@@ -56,8 +56,8 @@
 			</div>
 
 			<div class="stat">
-				<div class="human-readable-number"  title="{followingCount}">0</div>
-				<span class="stat-label">Token</span>
+				<div class="human-readable-number"  title="{token}">{token}</div>
+				<span class="stat-label">[[user:token]]</span>
 			</div>
 		</div>
 
