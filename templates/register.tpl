@@ -39,6 +39,14 @@
 						<span class="register-feedback" id="password-confirm-notify"></span>
 					</div>
 				</div>
+				<!--
+				<div class="form-group">
+					<label for="inviter" class="col-lg-4 control-label">[[register:inviter]]</label>
+					<div class="col-lg-8">
+						<input class="form-control" type="text" placeholder="[[register:inviter_placeholder]]" name="inviter" id="inviter" autocorrect="off" autocapitalize="off" autocomplete="off" />
+					</div>
+				</div>
+	            -->
 
 				<!-- BEGIN regFormEntry -->
 				<div class="form-group">
