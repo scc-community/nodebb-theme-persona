@@ -3,7 +3,7 @@
 
 	<div class="profile row">
 		<h1 class="fullname"><!-- IF fullname -->{fullname}<!-- ELSE -->{username}<!-- ENDIF fullname --></h1>
-		<h2 class="invite-link">[[user:invite-link]]: {invitelink} <a>[[user:copy-invite-link]]</a></h2>
+	    <div id="invite-link" data-value="{invitelink}"></div>
 		<!-- IF isAdminOrGlobalModeratorOrModerator -->
 		<!-- IF banned -->
 		<div class="text-center">
