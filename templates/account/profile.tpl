@@ -3,7 +3,7 @@
 
 	<div class="profile row">
 		<h1 class="fullname"><!-- IF fullname -->{fullname}<!-- ELSE -->{username}<!-- ENDIF fullname --></h1>
-	    <div id="invite-link" data-value="{invitelink}"></div>
+	    <div id="invite-link" data-value="{invitelink}" data-clipboard-action="copy" data-clipboard-target=".bootbox-body"></div>
 		<!-- IF isAdminOrGlobalModeratorOrModerator -->
 		<!-- IF banned -->
 		<div class="text-center">
@@ -153,4 +153,14 @@
 	</div>
 
 	<div id="user-action-alert" class="alert alert-success hide"></div>
+
+	<script>
+	    var clipboard = new ClipboardJS('#invite-link');
+        clipboard.on('success', function(e) {
+            app.alertSuccess("[[success:success]]");
+        });
+        clipboard.on('error', function(e) {
+            app.alertError("[[error:error]]");
+        });
+	</script>
 </div>
