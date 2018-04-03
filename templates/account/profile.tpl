@@ -3,7 +3,7 @@
 
 	<div class="profile row">
 		<h1 class="fullname"><!-- IF fullname -->{fullname}<!-- ELSE -->{username}<!-- ENDIF fullname --></h1>
-	    <div id="invite-link" data-value="{invitelink}" data-clipboard-action="copy" data-clipboard-target=".bootbox-body"></div>
+	    <div id="invite-link" data-value="{invitelink}" data-clipboard-text="{invitelink}" data-clipboard-action="copy" data-clipboard-target=".bootbox-body"></div>
 		<!-- IF isAdminOrGlobalModeratorOrModerator -->
 		<!-- IF banned -->
 		<div class="text-center">
