@@ -29,7 +29,7 @@
 
 		<div class="account-stats">
 			<!-- IF !reputation:disabled -->
-			<div class="stat">
+			<div class="stat" style="display:none;">
 				<div class="human-readable-number" title="{reputation}">{reputation}</div>
 				<span class="stat-label">[[global:reputation]]</span>
 			</div>
