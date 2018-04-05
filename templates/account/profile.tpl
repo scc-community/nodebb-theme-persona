@@ -61,8 +61,8 @@
 			</div>
 		</div>
 
-		<div class="text-center" style="margin-top:1em">
-			<a component="account/invitelink" style="color:#1E90FF; font-weight:bold; font-size:1.1em">[[user:invitelink]]</a>
+		<div class="text-center" class="invite-component">
+			<a component="account/invitelink">[[user:invitelink]]</a>
 		<div>
 
 		<div class="text-center profile-meta">
