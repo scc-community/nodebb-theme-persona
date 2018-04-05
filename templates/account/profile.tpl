@@ -61,6 +61,10 @@
 			</div>
 		</div>
 
+		<div class="text-center" style="margin-top:1em">
+            <span style="color:#1E90FF; font-weight:bold; font-size:1.1em">[[user:invitelink]]</span>
+        <div>
+
 		<div class="text-center profile-meta">
 			<span>[[user:joined]]</span>
 			<strong class="timeago" title="{joindateISO}"></strong>
