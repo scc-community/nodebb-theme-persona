@@ -61,7 +61,7 @@
 			</div>
 		</div>
 
-		<div class="text-center" class="invite-component">
+		<div class="text-center invite-component">
 			<a component="account/invitelink">[[user:invitelink]]</a>
 		<div>
 
