@@ -161,10 +161,10 @@
 	<script>
 	    var clipboard = new ClipboardJS('#invite-link');
         clipboard.on('success', function(e) {
-            app.alertSuccess("[[success:success]]");
+            //app.alertSuccess("[[success:success]]");
         });
         clipboard.on('error', function(e) {
-            app.alertError("[[error:error]]");
+            //app.alertError("[[error:error]]");
         });
 	</script>
 </div>
