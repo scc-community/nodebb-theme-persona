@@ -61,11 +61,11 @@
 			</div>
 		</div>
 
-		<div class="text-center invite-component">
-			<div component="account/invitelink">[[user:invitelink]]</div>
-		<div>
-
 		<div class="text-center profile-meta">
+			<div class="invite-component">
+				<a component="account/invitelink">[[user:invitelink]]</a>
+			<div>
+
 			<span>[[user:joined]]</span>
 			<strong class="timeago" title="{joindateISO}"></strong>
 
