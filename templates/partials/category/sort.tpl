@@ -9,6 +9,8 @@
 	<ul class="dropdown-menu pull-right">
 		<li><a href="#" class="newest_to_oldest" data-sort="newest_to_oldest"><i class="fa fa-fw"></i> [[topic:newest_to_oldest]]</a></li>
 		<li><a href="#" class="oldest_to_newest" data-sort="oldest_to_newest"><i class="fa fa-fw"></i> [[topic:oldest_to_newest]]</a></li>
+		<li><a href="#" class="publish_newest_to_oldest" data-sort="publish_newest_to_oldest"><i class="fa fa-fw"></i> [[topic:publish_newest_to_oldest]]</a></li>
+		<li><a href="#" class="publish_oldest_to_newest" data-sort="publish_oldest_to_newest"><i class="fa fa-fw"></i> [[topic:publish_oldest_to_newest]]</a></li>
 		<li><a href="#" class="most_posts" data-sort="most_posts"><i class="fa fa-fw"></i> [[topic:most_posts]]</a></li>
 		<li><a href="#" class="most_votes" data-sort="most_votes"><i class="fa fa-fw"></i> [[topic:most_votes]]</a></li>
 	</ul>
