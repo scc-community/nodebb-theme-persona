@@ -55,13 +55,17 @@
 				<span class="stat-label">[[user:following]]</span>
 			</div>
 
+			<!-- IF isSelf -->
 			<div class="stat">
 				<div class="human-readable-number"  title="{token}">{token}</div>
 				<span class="stat-label">[[user:token]]</span>
 			</div>
+			<!-- ENDIF isSelf -->
 		</div>
 
+		<!-- IF isSelf -->
 		<div class="text-center invite-component" component="account/invitelink">[[user:invitelink]]</div>
+		<!-- ENDIF isSelf -->
 
 		<div class="text-center profile-meta">
 			<span>[[user:joined]]</span>
