@@ -8,6 +8,14 @@
 				<p>{error}</p>
 			</div>
 			<form component="register/local" class="form-horizontal" role="form" action="{config.relative_path}/register" method="post">
+				<!-- IF inviter -->
+				<div class="form-group">
+					<label for="inviter" class="col-lg-4 control-label">[[register:inviter]]</label>
+					<div class="col-lg-8">
+						<input class="form-control" type="text" name="inviter" id="inviter" placeholder="{inviter}" readonly />
+					</div>
+				</div>
+				<!-- ENDIF inviter -->
 				<div class="form-group">
 					<label for="email" class="col-lg-4 control-label">[[register:email_address]]</label>
 					<div class="col-lg-8">
@@ -39,14 +47,6 @@
 						<span class="register-feedback" id="password-confirm-notify"></span>
 					</div>
 				</div>
-				<!--
-				<div class="form-group">
-					<label for="inviter" class="col-lg-4 control-label">[[register:inviter]]</label>
-					<div class="col-lg-8">
-						<input class="form-control" type="text" placeholder="[[register:inviter_placeholder]]" name="inviter" id="inviter" autocorrect="off" autocapitalize="off" autocomplete="off" />
-					</div>
-				</div>
-	            -->
 
 				<!-- BEGIN regFormEntry -->
 				<div class="form-group">
@@ -60,8 +60,10 @@
 				<div class="form-group">
 					<div class="col-lg-offset-4 col-lg-8">
 						<button class="btn btn-primary btn-lg btn-block" id="register" type="submit">[[register:register_now_button]]</button>
+						<a href=[[register:learn.address_link]] target="_blank" style="display:block;margin-top:1em">[[register:learn.address_content]]</a>
 					</div>
 				</div>
+				
 				<input id="referrer" type="hidden" name="referrer" value="" />
 				<input id="token" type="hidden" name="token" value="" />
 				<input id="noscript" type="hidden" name="noscript" value="true" />
