@@ -7,7 +7,7 @@
 			</div>
 			<div class="row-xs-6">
 				<div class="form-group text-center" style="">
-					<div>[[user:invitelink-label-title, {invitelink}]]</div>
+					<div>{username}[[user:invitelink-label-title, {invitelink}]]</div>
 					<div class="text-center" style="margin-top:2em;margin-bottom:1.5em">[[user:invitelink-desc]]</div>
 				</div>
 			</div>
