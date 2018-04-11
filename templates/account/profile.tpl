@@ -3,7 +3,7 @@
 
 	<div class="profile row">
 		<h1 class="fullname"><!-- IF fullname -->{fullname}<!-- ELSE -->{username}<!-- ENDIF fullname --></h1>
-	    <div id="invite-link" data-value="{invitelink}" data-clipboard-action="copy" data-clipboard-target=".bootbox-body"></div>
+	    <div id="invite-link" data-clipboard-text="{invitelink}"></div>
 		<!-- IF isAdminOrGlobalModeratorOrModerator -->
 		<!-- IF banned -->
 		<div class="text-center">
@@ -29,7 +29,7 @@
 
 		<div class="account-stats">
 			<!-- IF !reputation:disabled -->
-			<div class="stat">
+			<div class="stat" style="display:none;">
 				<div class="human-readable-number" title="{reputation}">{reputation}</div>
 				<span class="stat-label">[[global:reputation]]</span>
 			</div>
@@ -55,11 +55,17 @@
 				<span class="stat-label">[[user:following]]</span>
 			</div>
 
+			<!-- IF isSelf -->
 			<div class="stat">
 				<div class="human-readable-number"  title="{token}">{token}</div>
 				<span class="stat-label">[[user:token]]</span>
 			</div>
+			<!-- ENDIF isSelf -->
 		</div>
+
+		<!-- IF isSelf -->
+		<a class="text-center invite-component" href="/user/{userslug}/invitation">[[user:invitelink]]</a>
+		<!-- ENDIF isSelf -->
 
 		<div class="text-center profile-meta">
 			<span>[[user:joined]]</span>
@@ -157,10 +163,10 @@
 	<script>
 	    var clipboard = new ClipboardJS('#invite-link');
         clipboard.on('success', function(e) {
-            app.alertSuccess("[[success:success]]");
+            //app.alertSuccess("[[success:success]]");
         });
         clipboard.on('error', function(e) {
-            app.alertError("[[error:error]]");
+            //app.alertError("[[error:error]]");
         });
 	</script>
 </div>
