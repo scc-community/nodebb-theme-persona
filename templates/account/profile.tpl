@@ -64,7 +64,7 @@
 		</div>
 
 		<!-- IF isSelf -->
-		<a class="text-center invite-component" href="/user/{userslug}/invitation">[[user:invitelink]]</a>
+		<a id="invitelink" class="text-center invite-component" invitelink="/user/{userslug}/invitation">[[user:invitelink]]</a>
 		<!-- ENDIF isSelf -->
 
 		<div class="text-center profile-meta">
