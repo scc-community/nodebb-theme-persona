@@ -20,7 +20,7 @@
 				<small>[[global:posts]]</small>
 				<span class="human-readable-number">{postcount}</span>
 			</div>
-			<div class="col-xs-4">
+			<div class="col-xs-4" style="display:none;">
 				<small>[[global:reputation]]</small>
 				<span class="human-readable-number">{reputation}</span>
 			</div>
