@@ -8,7 +8,7 @@
 			<div class="topics-section">
 				<!-- BEGIN topics -->
 				<!-- IF @index -->
-				<i class="fa fa-2x fa-thumbs-o-up"></i><br/>
+				<i class="fa fa-thumbs-up"></i><br/>
 				<!-- ENDIF @index -->
 				<span>{topics.title}</span><br/>
 				<!-- END topics -->
