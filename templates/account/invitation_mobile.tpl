@@ -17,13 +17,10 @@
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="mobile-web-app-capable" content="yes" />
 		<meta property="og:site_name" content="SourceCC" />
-		<meta name="msapplication-badge" content="frequency=30; polling-uri=http://localhost:4567/sitemap.xml" />
 		<meta name="title" content="admin" />
 		<meta name="description" />
 		<meta property="og:title" content="admin" />
 		<meta property="og:description" />
-		<meta property="og:url" content="http://localhost:4567/user/admin/invitation?mobile&#x3D;1" />
-		
 		<link rel="stylesheet" type="text/css" href="/assets/stylesheet.css?v=jf2ob54qhn8" />
 		
 		<link rel="icon" type="image/x-icon" href="/favicon.ico?v=jf2ob54qhn8" />
