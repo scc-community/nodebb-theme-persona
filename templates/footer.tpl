@@ -3,7 +3,15 @@
 	</main>
 
 
-
+	<footer class="navbar navbar-fixed-bottom row1 between footerBg p16">
+		<div class="row1">
+			<a class="footerFont" href="https://sourcecc.io" target="blank">Source Code Chain</a>
+		</div>
+		<div>
+			<p id="donateETH" class="footerFont" style="cursor:pointer">[[admin/manage/categories:donateETH]]: 0x85db0c54146cc45c5f25e6da6ea6a4b93696c935</p>
+			<p class="footerFont">SCCAI TECHNOLOGY FOUNDATION © All rights reserved</p>
+		</div>
+	</footer>
 	<!-- IF !isSpider -->
 	<div class="topic-search hidden">
 		<div class="btn-group">
