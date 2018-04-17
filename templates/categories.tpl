@@ -19,18 +19,8 @@
 		<!-- END widgets.sidebar -->
 	</div>
 </div>
-<div widget-area="footer" style="min-height: calc(100vh - 3em);">
+<div widget-area="footer">
 	<!-- BEGIN widgets.footer -->
 	{{widgets.footer.html}}
 	<!-- END widgets.footer -->
 </div>
-
-<footer class="navbar navbar-fixed-bottom row1 between footerBg p16">
-	<div class="row1">
-		<a class="footerFont" href="https://sourcecc.io">Source Code Chain</a>
-	</div>
-	<div>
-		<p id="donateETH" class="footerFont" style="cursor:pointer">Donate ETH: 0x85db0c54146cc45c5f25e6da6ea6a4b93696c935</p>
-		<p class="footerFont">SCCAI TECHNOLOGY FOUNDATION © All rights reserved</p>
-	</div>
-</footer>
