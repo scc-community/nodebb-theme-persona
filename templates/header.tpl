@@ -16,8 +16,6 @@
 		};
 	</script>
 
-    <script src="https://cdn.bootcss.com/clipboard.js/2.0.0/clipboard.min.js"></script>
-
 	<!-- IF useCustomHTML -->
 	{{customHTML}}
 	<!-- END -->
