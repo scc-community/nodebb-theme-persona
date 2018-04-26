@@ -17,9 +17,9 @@
 	}
 }
 
-.size4001 {
+.size400 {
 	.modal-dialog {
-		width: calc(100% / 2);
+		width:400px;
 	}
 }
 
@@ -31,20 +31,41 @@
 .between {
 	justify-content: space-around;
 }
-
-.footerBg {
-  	background-color: #373d41;
+.center {
+	justify-content: center;
+	align-items: center;
+}
+.footer-wrap {
+	width: 100%;
+    position: absolute;
+    bottom: 0;
+	background-color: #eee;
+	text-align: center;
 }
 
+.scc-logo {
+	width: 16px;
+	height: 16px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(/assets/images/scc_logo.png);
+	margin-right: 6px;
+}
 .footerFont {
+	margin: 0;
 	color: #9b9ea0;
+	& h4 {
+		font-size: 14px;
+	}
+	&.f-12 {
+		font-size: 12px;
+	}
 }
-
 a {
   &.footerFont {
 	color: #9b9ea0;
     &:hover {
-      color: white;
+      color: #000;
     }
   }
 }

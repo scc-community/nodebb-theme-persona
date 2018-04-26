@@ -2,13 +2,11 @@
 		</div><!-- END container -->
 	</main>
 
-	<footer id="customSCCfooter" class="row1 between footerBg p16 hidden">
-	<div class="row1">
-		<a class="footerFont" href="https://sourcecc.io">Source Code Chain</a>
-	</div>
+	<footer id="customSCCfooter" class="footer-wrap p16 hidden">
 	<div>
-		<p id="donateETH" class="footerFont" style="cursor:pointer">[[admin/manage/categories:donateETH]]: 0x85db0c54146cc45c5f25e6da6ea6a4b93696c935</p>
-		<p class="footerFont">SCCAI TECHNOLOGY FOUNDATION © All rights reserved</p>
+	    <div class="footerFont row1 center"><a style="cursor:pointer" href="https://sourcecc.io"><div class="scc-logo"></div><h4>Source Code Chain</h4></a></div>
+		<p id="donateETH" class="footerFont " style="cursor:pointer">[[admin/manage/categories:donateETH]]: 0x85db0c54146cc45c5f25e6da6ea6a4b93696c935</p>
+		<p class="footerFont f-12">SCCAI TECHNOLOGY FOUNDATION © All rights reserved</p>
 	</div>
 	</footer>
 
