@@ -64,7 +64,12 @@
 		</div>
 
 		<!-- IF isSelf -->
-		<a id="invitelink" class="text-center invite-component" lang="{lang}" invitelink="/user/{userslug}/invitation">[[user:invitelink]]</a>
+		<div style="text-align:center">
+			<div style="display:inline-block">
+				<a id="invitelink" class="text-center invite-component" lang="{lang}" invitelink="/user/{userslug}/invitation">[[user:invitelink]]</a>
+			</div>
+			<div style="display:inline-block">([[user:invitationNumber, {sccInvitationNumber}]])</span>
+		</div>
 		<!-- ENDIF isSelf -->
 
 		<div class="text-center profile-meta">
