@@ -164,14 +164,4 @@
 	</div>
 
 	<div id="user-action-alert" class="alert alert-success hide"></div>
-
-	<script>
-	    var clipboard = new ClipboardJS('#invite-link');
-        clipboard.on('success', function(e) {
-            //app.alertSuccess("[[success:success]]");
-        });
-        clipboard.on('error', function(e) {
-            //app.alertError("[[error:error]]");
-        });
-	</script>
 </div>
