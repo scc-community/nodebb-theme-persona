@@ -57,8 +57,8 @@
 
 			<!-- IF isSelf -->
 			<div class="stat">
-				<div class="human-readable-number"  title="{token}">{token}</div>
-				<span class="stat-label">[[user:token]]</span>
+				<div class="human-readable-number"  title="{scctoken}">{scctoken}</div>
+				<span class="stat-label">[[user:scctoken]]</span>
 			</div>
 			<!-- ENDIF isSelf -->
 		</div>
