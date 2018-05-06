@@ -8,3 +8,4 @@ sftp-config.json
 .vscode
 node_modules/
 *.iml
+package-lock.json
