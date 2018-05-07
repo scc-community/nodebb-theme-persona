@@ -12,7 +12,7 @@
 				<div class="form-group">
 					<label for="inviter" class="col-lg-4 control-label">[[register:inviter]]</label>
 					<div class="col-lg-8">
-						<input class="form-control" type="text" name="inviter" id="inviter" placeholder="{inviter}" readonly />
+						<input class="form-control" type="text" name="inviter" id="inviter" placeholder="{inviter}" value="{inviter}" readonly />
 					</div>
 				</div>
 				<!-- ENDIF inviter -->
