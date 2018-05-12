@@ -11,21 +11,20 @@
                         <th>[[user:scc.content]]</th>
                         <th>[[user:scc.timestamp]]</th>
                         <th>[[user:scc.transaction-id]]</th>
-						<!--<th class="text-right">[[admin/manage/users:users.postcount]]</th>-->
 					</tr>
 				</thead>
 				<tbody>
-					<!-- BEGIN users -->
+					<!-- BEGIN txs -->
 					<tr class="user-row">
-						<td class="text-right">{users.scccount}</td>
-						<td class="text-right">{users.scccategory}</td>
-						<td class="text-right">{users.sccobject}</td>
-                        <td class="text-right">{users.scctype}</td>
-                        <td class="text-right">{users.scccontent}</td>
-						<td><span class="timeago" title="{users.sccISO}"></span></td>
-                        <td class="text-right">{users.scctransactionid}</td>
+						<td class="text-right">{txs.scc}</td>
+						<td class="text-right">{txs.transaction_type}</td>
+						<td class="text-right">{txs.publish_uid}</td>
+                        <td class="text-right">{txs.reward_type}</td>
+                        <td class="text-right">{txs.content}</td>
+						<td><span class="timeago" title="{txs.date_issued}"></span></td>
+                        <td class="text-right">{txs.tx_no}</td>
 					</tr>
-					<!-- END users -->
+					<!-- END txs -->
 				</tbody>
 			</table>
 		</div>
