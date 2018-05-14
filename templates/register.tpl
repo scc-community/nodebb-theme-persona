@@ -13,6 +13,7 @@
 					<label for="inviter" class="col-lg-4 control-label">[[register:inviter]]</label>
 					<div class="col-lg-8">
 						<input class="form-control" type="text" name="inviter" id="inviter" placeholder="{inviter}" value="{inviter}" readonly />
+						<input hidden="hidden" type="text" name="invitedcode" id="invitedcode" value="{invitedcode}" />
 					</div>
 				</div>
 				<!-- ENDIF inviter -->
