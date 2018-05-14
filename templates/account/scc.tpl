@@ -23,9 +23,9 @@
 						<!-- BEGIN txs -->
 						<tr class="user-row">
 							<td class="text-left">{txs.scc}</td>
-							<td class="text-left">{txs.transaction_type}</td>
-							<td class="text-left">{txs.publish_uid}</td>
-                        	<td class="text-left">{txs.reward_type}</td>
+							<td class="text-left">{txs.transactionTypeText}</td>
+							<td class="text-left">{txs.transactionUsername}</td>
+                        	<td class="text-left">{txs.rewardtypeText}</td>
                         	<td class="text-left">{txs.content}</td>
 							<td><span class="timeago" title="{txs.date_issued}"></span></td>
                         	<td class="text-left">{txs.tx_no}</td>
