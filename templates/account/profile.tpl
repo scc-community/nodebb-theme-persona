@@ -66,7 +66,7 @@
 		<!-- IF isSelf -->
 		<div style="text-align:center">
 			<div style="display:inline-block">
-				<a id="invitelink" class="text-center invite-component" lang="{lang}" invitelink="/user/{userslug}/invitation">[[user:invitelink]]</a>
+				<a id="invitelink" class="text-center invite-component" lang="{lang}" href="/user/{userslug}/invitation" invitelink="/user/{userslug}/invitation">[[user:invitelink]]</a>
 			</div>
 			<div style="display:inline-block">([[user:invitationNumber, {sccInvitationNumber}]])</span>
 		</div>
