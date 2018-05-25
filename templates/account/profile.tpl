@@ -57,7 +57,9 @@
 
 			<!-- IF isSelf -->
 			<div class="stat">
-				<div class="human-readable-number"  title="{scctoken}">{scctoken}</div>
+				<div class="human-readable-number">
+				<strong><a href="/user/{userslug}/scc">{scctoken}</a></strong>
+				</div>
 				<span class="stat-label">[[user:scctoken]]</span>
 			</div>
 			<!-- ENDIF isSelf -->
