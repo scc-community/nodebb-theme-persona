@@ -51,11 +51,7 @@
 		<div class="col-xs-6">
 			<div class="form-group">
 				<label for="group-name">状态</label>
-				<select class="form-control" id="codemodule-status">
-					<!-- BEGIN statusOptions -->
-					<option value="{statusOptions.value}" <!-- IF statusOptions.selected -->selected<!-- ENDIF statusOptions.selected -->>{statusOptions.text}</option>
-					<!-- END statusOptions -->
-				</select>
+				<input id="codemodule-status" class="form-control" <!-- IF codemodule -->value="{codemodule.status_text}" data-status="{codemodule.status}" data-url="{codemodule.url}"<!-- ELSE -->value="草稿"<!-- ENDIF codemodule --> readonly="readonly"/>
 			</div>
 		</div>
 	</div>
@@ -68,8 +64,8 @@
 		</div>
 		<div class="col-xs-6">
 			<div class="form-group">
-				<label class="group-name" for="codemodule-deliveryDeadline">交付截止日期</label>
-				<input id="codemodule-deliveryDeadline" class="form-control" readonly="readonly" <!-- IF codemodule --> value="{codemodule.delivery_deadline}"<!-- ENDIF codemodule --> />
+				<label class="group-name" for="codemodule-deliverydeadline">交付截止日期</label>
+				<input id="codemodule-deliverydeadline" class="form-control" readonly="readonly" <!-- IF codemodule --> value="{codemodule.delivery_deadline}"<!-- ENDIF codemodule --> />
 			</div>
 		</div>
 	</div>
@@ -108,17 +104,17 @@
 	<button data-action="deleteModuleTask" class="btn btn-primary pull-right">删除模块</button>
 	<button data-action="endModuleTask" class="btn btn-primary pull-right">结束任务</button>
 	<button data-action="cutoffModuleTask" class="btn btn-primary pull-right">进行结算</button>
-	<button data-action="unSubmitModuleTask" class="btn btn-primary pull-right">提交不合格</button>
-	<button data-action="downloadFile" class="btn btn-primary pull-right">下载文件</button>
+	<button data-action="unSubmitModuleTask" class="btn btn-primary pull-right">撤消</button>
+	<button data-action="downloadFile" data-url="{codemodule.url}" class="btn btn-primary pull-right">下载文件</button>
 	<button data-action="saveModuleTask" class="btn btn-primary pull-right">保存</button>
 	<!-- ENDIF statuses.submited -->
 
 	<!-- IF statuses.balanced -->
-	<button data-action="downloadFile" class="btn btn-primary pull-right">下载文件</button>
+	<button data-action="downloadFile" data-url="{codemodule.url}" class="btn btn-primary pull-right">下载文件</button>
 	<!-- ENDIF statuses.balanced -->
 
 	<!-- IF statuses.closed -->
-	<button data-action="downloadFile" class="btn btn-primary pull-right">下载文件</button>
+	<button data-action="downloadFile" data-url="{codemodule.url}" class="btn btn-primary pull-right">下载文件</button>
 	<!-- ENDIF statuses.closed -->
 	<!-- ELSE -->
 	<button data-action="newModuleTask" publish="1" class="btn btn-primary pull-right">直接发布</button>
