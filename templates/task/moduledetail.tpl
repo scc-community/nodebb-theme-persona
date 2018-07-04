@@ -48,10 +48,16 @@
 					<input id="codemodule-scc" type="number" class="form-control" min="0"<!-- IF codemodule --> value="{codemodule.scc}"<!-- ENDIF codemodule -->/>
 				</div>
 		</div>
-		<div class="col-xs-6">
+		<div class="col-xs-3">
 			<div class="form-group">
 				<label for="group-name">状态</label>
 				<input id="codemodule-status" class="form-control" <!-- IF codemodule -->value="{codemodule.status_text}" data-status="{codemodule.status}" data-url="{codemodule.url}"<!-- ELSE -->value="草稿"<!-- ENDIF codemodule --> readonly="readonly"/>
+			</div>
+		</div>
+		<div class="col-xs-3">
+			<div class="form-group">
+				<label for="group-name">最新提交时间</label>
+				<input id="codemodule-status" class="form-control" <!-- IF codemodule -->value="{codemodule.date_upload}"<!-- ENDIF codemodule --> readonly="readonly"/>
 			</div>
 		</div>
 	</div>
@@ -91,6 +97,7 @@
 	<!-- IF statuses.published -->
 	<button data-action="deleteModuleTask" class="btn btn-primary pull-right">删除模块</button>
 	<button data-action="endModuleTask" class="btn btn-primary pull-right">结束任务</button>
+	<button data-action="developModuleTask" class="btn btn-primary pull-right">开始开发</button>
 	<button data-action="saveModuleTask" class="btn btn-primary pull-right">保存</button>
 	<!-- ENDIF statuses.published -->
 
