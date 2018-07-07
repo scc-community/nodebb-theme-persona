@@ -17,7 +17,7 @@
     <div class="collapse navbar-collapse" id="task-navbar">
       <ul class="nav navbar-nav">
 		<li class="current"><a>任务列表</a></li>
-		<li class="link"><a href="/category/2/tasks-center-任务大厅">帖子</a></li>
+		<li class="link"><a href="/category/{centerCid}/tasks-center-任务大厅">帖子</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="right link"><a href="#">检测工具</a></li>
