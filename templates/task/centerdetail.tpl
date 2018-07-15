@@ -46,13 +46,13 @@
 				<!-- ENDIF status.submited -->
 			<!-- ELSE -->
 				<!-- IF status.developing -->
-				<p component="upload" data-route="{config.relative_path}/api/post/upload" data-url="{codeModule.url}" data-id="{codeModule.id}" data-status="{codeModule.status}" class="status active">
+				<p component="upload" data-route="{config.relative_path}/api/post/upload" data-url="{codeModule.url}" data-id="{codeModule.id}" data-status="{codeModule.status}" class="status btn btn-primary">
 				<a>上传文件</a>
 				</p>
 				<!-- ENDIF status.developing -->
 
 				<!-- IF status.submited -->
-				<p component="upload" data-route="{config.relative_path}/api/post/upload" data-url="{codeModule.url}" data-id="{codeModule.id}" data-status="{codeModule.status}" class="status active">
+				<p component="upload" data-route="{config.relative_path}/api/post/upload" data-url="{codeModule.url}" data-id="{codeModule.id}" data-status="{codeModule.status}" class="status btn btn-primary">
 				<a>重新提交</a>
 				</p>
 				<!-- ENDIF status.submited -->

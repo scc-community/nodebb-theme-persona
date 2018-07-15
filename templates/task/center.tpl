@@ -16,18 +16,17 @@
     </div>
     <div class="collapse navbar-collapse" id="task-navbar">
       <ul class="nav navbar-nav">
-		<li class="current"><a>任务列表</a></li>
-		<li class="link"><a href="/category/{centerCid}/tasks-center-任务大厅">帖子</a></li>
+				<li class="current"><a>任务列表</a></li>
+				<li class="link"><a href="/category/{centerCid}/tasks-center-任务大厅">帖子</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li class="right link"><a href="#">检测工具</a></li>
-		<li class="right link"><a href="/task/mytask">我的任务</a></li>
-		<!-- IF canManageProject -->
-		<li class="right link"><a href="/task/project">项目管理</a></li>
-		<!-- ENDIF canManageProject -->
-		<!-- IF canManageModule -->
-		<li class="right link"><a href="/task/module">模块管理</a></li>
-		<!-- ENDIF canManageModule -->
+				<li class="right link"><a href="/task/mytask">我的任务</a></li>
+				<!-- IF canManageProject -->
+				<li class="right link"><a href="/task/project">项目管理</a></li>
+				<!-- ENDIF canManageProject -->
+				<!-- IF canManageModule -->
+				<li class="right link"><a href="/task/module">模块管理</a></li>
+				<!-- ENDIF canManageModule -->
       </ul>
     </div>
   </div>
@@ -37,24 +36,26 @@
 	<!-- BEGIN codeModules -->
 	<div class="col-sm-6 task-card">
 		<div class="small-round right">
-			<div class="row first-row">
-				<div class="col-sm-8">
-					<p class="title"><a href="/task/mytask/detail?codeModuleId={../id}">{../title}</a></p>
+			<div class="row">
+				<div class="col-sm-11">
+					<div class="row first-row">
+						<div class="col-sm-8">
+							<p class="title"><a href="/task/mytask/detail?codeModuleId={../id}">{../title}</a></p>
+						</div>
+						<div class="col-sm-4 scc">
+							<p>{../scc}码力</p>
+						</div>
+					</div>
+					<div class="second-row">
+							<ul>
+								<!-- BEGIN codeModules.languages -->
+								<li class="language">{codeModules.languages}</li>
+								<!-- END codeModules.languages -->
+							</ul>
+					</div>
 				</div>
-				<div class="col-sm-2 scc">
-					<p>{../scc}码力</p>
-				</div>
-				<div class="col-sm-2">
+				<div class="col-sm-1">
 					<p class="status">{../status_text}</p>
-				</div>
-			</div>
-			<div class="row second-row">
-				<div class="col-sm-12">
-					<ul>
-						<!-- BEGIN codeModules.languages -->
-						<li class="language">{codeModules.languages}</li>
-						<!-- END codeModules.languages -->
-					</ul>
 				</div>
 			</div>
 			<div class="row three-row">

@@ -111,7 +111,7 @@
 	<button data-action="deleteModuleTask" class="btn btn-primary pull-right">删除模块</button>
 	<button data-action="endModuleTask" class="btn btn-primary pull-right">结束任务</button>
 	<button data-action="cutoffModuleTask" class="btn btn-primary pull-right">进行结算</button>
-	<button data-action="unSubmitModuleTask" class="btn btn-primary pull-right">撤消</button>
+	<button data-action="unSubmitModuleTask" class="btn btn-primary pull-right">提交不合格</button>
 	<button data-action="downloadFile" data-url="{codemodule.url}" class="btn btn-primary pull-right">下载文件</button>
 	<button data-action="saveModuleTask" class="btn btn-primary pull-right">保存</button>
 	<!-- ENDIF statuses.submited -->
