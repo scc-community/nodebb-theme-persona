@@ -16,7 +16,7 @@
 					<!-- END codeModule.languages -->
 				</ul>
 			</div>
-			<div class="col-sm-12">
+			<div class="col-sm-12 top-area-21">
 				<p class="left-area">发布人:{codeModule.userslug}</p>
 				<p class="left-area">交付截止日期:{codeModule.delivery_deadline_text}</p>
 				<p class="left-area">发布日期:{codeModule.date_cutoff_text}</p>

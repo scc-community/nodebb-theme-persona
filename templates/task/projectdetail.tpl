@@ -50,9 +50,10 @@
 							<tr>
 								<th>模块ID</th>
 								<th>名称</th>
-								<th>奖励</th>
+								<th>模块奖励</th>
 								<th>状态</th>
 								<th>领取人</th>
+								<th>项目奖励</th>
 								<th>操作</th>
 							</tr>
 						</thead>
@@ -64,6 +65,7 @@
 								<td>{codeModules.cm_scc}</td>
 								<td>{codeModules.status_text}</td>
 								<td>{codeModules.accept_username}</td>
+								<td>{codeModules.project_cm_scc}</td>
 								<td><a data-action="deleteCodeModule" href="#">移除</a></td>
 							</tr>
 							<!-- END codeModules -->
