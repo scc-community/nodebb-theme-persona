@@ -66,7 +66,7 @@
 					<p>交付截止日期:{../delivery_deadline_text}</p>
 				</div>
 				<div class="col-sm-4">
-					<p>发布日期:{../date_cutoff_text}</p>
+					<p>发布日期:{../date_published_text}</p>
 				</div>
 			</div>
 		</div>
