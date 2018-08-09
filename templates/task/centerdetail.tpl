@@ -25,24 +25,24 @@
 		<div class="col-sm-4 text-center">
 			<p class="scc">{codeModule.scc}码力</p>
 			<!-- IF status.published -->
-			<p class="status published"><a component="acceptTask">等待分配</a></p>
+			<p class="status btn published"><a component="acceptTask">等待分配</a></p>
 			<!-- ENDIF status.published -->
 
 			<!-- IF status.balanced -->
-			<p class="status disable"><a>已结算</a></p>
+			<p class="status btn disable"><a>已结算</a></p>
 			<!-- ENDIF status.balanced -->
 
 			<!-- IF status.closed -->
-			<p class="status disable"><a>已关闭</a></p>
+			<p class="status btn disable"><a>已关闭</a></p>
 			<!-- ENDIF status.closed -->
 
 			<!-- IF !isMyTask -->
 				<!-- IF status.developing -->
-				<p class="status developing"><a>开发中</a></p>
+				<p class="status btn developing"><a>开发中</a></p>
 				<!-- ENDIF status.developing -->
 
 				<!-- IF status.submited -->
-				<p class="status disable"><a>已完成</a></p>
+				<p class="status btn disable"><a>已完成</a></p>
 				<!-- ENDIF status.submited -->
 			<!-- ELSE -->
 				<!-- IF status.developing -->
